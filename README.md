@@ -18,4 +18,6 @@ Principales Características de LocationAlert:
 -Permite ver los lugares que son más peligrosos para que el usuario los pueda evitar.
 -Permite realizar comentarios y recomendaciones de lugares peligrosos y seguros.
 -Plataforma en la que permite visualizar los delitos que han sido cometidos en los lugares más peligrosos en la ciudad de Lima.
--Permite reseñar y puntuar lugares peligrosos o seguros para que el usuario pueda visualizar.
+-Permite reseñar y puntuar lugares peligrosos o seguros para que el usuario pueda visualizar. 
+
+

@@ -1,0 +1,76 @@
+.contenedor_footer{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.cajaF{
+display: flex; 
+flex-direction: column; 
+padding: 40px; 
+
+} 
+
+.cajaF .logo  img{
+    width: 100px;
+    margin-left: 100px; 
+} 
+
+.cajaF .term{
+    max-width: 350px;
+    margin-top: 20px; 
+    font-weight: 500; 
+    color:white; 
+    font-size: 16px; 
+}
+
+.cajaF h2{
+    margin-bottom: 30px;
+    color: orange;
+    font-weight: 700;
+}
+
+.cajaF a{
+    margin-top: 10px;
+    font-weight: 600;
+    color:white; 
+}
+
+.cajaF .redes{
+    display: inline;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cajaF a .L{
+    width: 15px; 
+    margin-right: 3%; 
+}
+
+
+.caja_line{
+    max-width: 1200px; 
+    margin: auto;
+    text-align: center; 
+    padding: 0 40px; 
+
+}
+
+.caja_line p{
+    margin-top: 20px;
+    color:black; 
+
+}   
+
+.caja_line hr{
+    border: none; 
+    height: 1px; 
+    background-color: gray; 
+} 
+
