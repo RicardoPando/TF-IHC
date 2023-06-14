@@ -1,0 +1,53 @@
+.nave{
+    position: relative;
+    height: 100%;
+}
+nav{
+    height: 100%;
+    transition: all 300ms;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.regi {
+    height: 100%;
+    transition: all 300ms;
+}
+.regi img {
+    width: 40px;
+    margin-top: 30px;
+}
+.regi img:hover{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(118, 185, 230);
+    border-color: rgb(118, 185, 230);
+}
+nav ul li{
+    margin: 0px 30px;
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    font-size: 35px;
+    font-family:'Alegreya';
+}
+li a:hover{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(118, 185, 230);
+    border-color: rgb(118, 185, 230);
+    transition: 0.8s all;
+    transform: scale(1.1);
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.nav_mod{
+    height: 70px;
+    box-shadow: 1px 1px 10px 0px #00000010;
+    background-color: white;
+    
+}
