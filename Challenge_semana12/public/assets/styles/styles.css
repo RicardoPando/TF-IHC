@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.container__all{
+    position: relative;
+    
+    right: 0;
+    max-width: 2000px;
+    transition: all 300ms;
+}
+.contenedorheader{
+    max-width: 1600px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 20px;
+}
+.logo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 200px;
+}
+.nave{
+    position: relative;
+    height: 100%;
+    
+}
+.nave{
+    position: relative;
+    height: 100%;
+}
+nav{
+    height: 100%;
+    transition: all 300ms;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.regi {
+    height: 100%;
+    transition: all 300ms;
+}
+.regi img {
+    width: 40px;
+    margin-top: 30px;
+}
+.regi img:hover{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(118, 185, 230);
+    border-color: rgb(118, 185, 230);
+}
+nav ul li{
+    margin: 0px 30px;
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    font-size: 35px;
+    font-family:'Alegreya';
+}
+li a:hover{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(118, 185, 230);
+    border-color: rgb(118, 185, 230);
+    transition: 0.8s all;
+    transform: scale(1.1);
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.nav_mod{
+    height: 70px;
+    box-shadow: 1px 1px 10px 0px #00000010;
+    background-color: white;
+    
+}
+.cover{
+    width: 100%;
+    padding-bottom: 60px;
+    margin-top: 100x;
+    height: 700px;
+}
+.contenedorcover{
+    max-width: 1600px;
+    position: relative;
+    display: flex;
+    height: 450px;
+    padding-left: 100px;
+    padding-right: 0%;
+    margin-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   justify-content: space-between;
+}
+.contenedor_info{
+    max-width: 800px;
+    margin-top: 40px;
+    margin-left: 120px;
+    padding-right: 40px;
+}
+.cover h1{
+    max-width: 500px;
+    font-size: 300%;
+    
+    padding-bottom: 50px;
+    color:rgb(255, 102, 0);
+    text-align: center;
+    margin-left: 25px;
+}
+.cover h2{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 27px;
+    padding-left: 0%;
+    font-size: 200%;
+    max-width: 550px;
+    font-family:'Satisfy';
+}
+.ima1{
+    margin-top: 5px;
+    margin-top: 20px;
+    padding-left: 7%;
+    margin-left: -50px;
+    width: 200px;
+    display: inline;
+    overflow: hidden;
+    justify-items: center;
+}
