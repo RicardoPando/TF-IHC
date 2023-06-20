@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=IBM Plex Serif" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster Two" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Martel" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Zen Antique" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Zen Merriweather" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=IBM Plex Serif" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lobster Two" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Martel" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Zen Antique" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Zen Merriweather" rel="stylesheet" type="text/css">
 
-     
+
 <head>
     <meta charset="UTF-8">
     <title>Location Alert</title>
     <link rel="icon" type="image/x-icon" href="./assets/images/LocationAlert_icon.ico">
     <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="./assets/styles/stylesApp.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
+
 <body class="bod">
     <header id="header">
-        <div class="contenedorheader"> 
-        <div class="logo">
-            <img src="assets/images/Logo_locationAlert.png">
-        </div>
-        <div class="nave">
-            <nav id="nav">
-                <ul>
-                    <li><a class="desplazar" href="#"  class="boot" id="Inicio">Inicio</a></li>
-                    <li><a class="desplazar" href="#Pagina_Servici"  class="boot" id="Servici">Servicios</a></li>
-                    <li><a class="desplazar" href="#Pagina_Nosot"  class="boot" id="Nosot">Nosotros</a></li>
-                    <li><a class="desplazar" href="#Pagina_App"  class="boot" id="App">App</a></li>
-                    <li><a class="desplazar" href="#Pagina_Planes"  class="boot" id="Planes">Planes</a></li>
-                    <li><a class="desplazar" href="#Pagina_Contactanos"  class="boot" id="Contactanos">Contactanos</a></li>
-            </ul>
-            </nav>
-            <!-- <div class="btn_menu" id="btn_menu">
+        <div class="contenedorheader">
+            <div class="logo">
+                <img src="assets/images/Logo_locationAlert.png">
+            </div>
+            <div class="nave">
+                <nav id="nav">
+                    <ul>
+                        <li><a class="desplazar" href="#" class="boot" id="Inicio">Inicio</a></li>
+                        <li><a class="desplazar" href="#Pagina_Servici" class="boot" id="Servici">Servicios</a></li>
+                        <li><a class="desplazar" href="#Pagina_Nosot" class="boot" id="Nosot">Nosotros</a></li>
+                        <li><a class="desplazar" href="#Pagina_App" class="boot" id="App">App</a></li>
+                        <li><a class="desplazar" href="#Pagina_Planes" class="boot" id="Planes">Planes</a></li>
+                        <li><a class="desplazar" href="#Pagina_Contactanos" class="boot"
+                                id="Contactanos">Contactanos</a></li>
+                    </ul>
+                </nav>
+                <!-- <div class="btn_menu" id="btn_menu">
                 <i class="fas fa-bars"><img class="im" src="./assets/images/barramenu.png"></i>
             </div> -->
-             
-    </div>
-        <div class="regi">
-            <a href="#" id="Registro"><img src="./assets/images/usuario.png"></a>
+
+            </div>
+            <div class="regi">
+                <a href="#" id="Registro"><img src="./assets/images/usuario.png"></a>
+            </div>
         </div>
-    </div>
     </header>
     <div class="container_all" id="container_all">
         <div class="cover">
@@ -56,107 +62,106 @@
         </div>
     </div>
 
-<!-- Nosotros -->
+    <!-- Nosotros -->
 
     <div class="container_Nosotros " id="Pagina_Nosot">
         <h2 class="N">Nosotros</h2>
-        <input type="radio" id="1" name="image-slide" hidden/>
-        <input type="radio" id="2" name="image-slide" hidden/>
-        <input type="radio" id="3" name="image-slide" hidden/>
+        <input type="radio" id="1" name="image-slide" hidden />
+        <input type="radio" id="2" name="image-slide" hidden />
+        <input type="radio" id="3" name="image-slide" hidden />
         <div class="pagination">
 
             <label class="pagination-item" for="1">
-                <img  src="./assets/images/grupo.png" alt="">
+                <img src="./assets/images/grupo.png" alt="">
             </label>
-            
+
             <label class="pagination-item" for="2">
                 <img src="./assets/images/Equipo1.png">
             </label>
-            
+
             <label class="pagination-item" for="3">
                 <img src="./assets/images/Equipo2.png">
             </label>
-            
+
         </div>
 
 
         <div class="desctipN">
-            <p class="p1">Nuestra startup "Locattion Alert" tiene como propósito mejorar la calidad de seguridad en los lugares peligrosos del departamento de Lima, en este caso nuestra Landing page y nuestra aplicación brindará alertas a nuestros clientes cuando se encuentren en los lugares peligrosos sin darse cuenta. También, podrá ver los lugares seguros a su alrededor.</p>
+            <p class="p1">Nuestra startup "Locattion Alert" tiene como propósito mejorar la calidad de seguridad en los
+                lugares peligrosos del departamento de Lima, en este caso nuestra Landing page y nuestra aplicación
+                brindará alertas a nuestros clientes cuando se encuentren en los lugares peligrosos sin darse cuenta.
+                También, podrá ver los lugares seguros a su alrededor.</p>
         </div>
     </div>
+    <!-- APP -->
+
+    <div class="App">
+        <div class="row">
+            <h2 class="A">Nuestra APP</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="col-lg-2  col-md-6 col-sm-12">
+                <img class="chica" src="./assets/images/chica.png" alt="">
+            </div>
+            <div class="col-lg-6  col-md-6 col-sm-12">
+                <div class="col-lg-12 ">
+                    <p>Esta app te ayudará a mejorar la calidad de seguridad en los lugares más peligrosos
+                        de
+                        Lima, también brindará alertas a
+                        los usuarios que se encuentren en un lugar peligroso sin darse cuenta.</p>
+
+                </div>
+                <br>
+                <br>
+                <div class="col-lg-6">
+                    <h4 class="des">Descarga la App </h4>
+                    <img class="qr" src="./assets/images/qr.webp" alt="">
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-4  col-md-6 col-sm-12">
+                <img class="fot" src="./assets/images/cell.jpg" alt="">
+
+            </div>
+        </div>
+
+    </div>
+
 
     <!-- Planes -->
     <div class="PortadaSubcri" id="Pagina_Planes">
-        <h2>Nuestros Planes</h2>      
+        <h2>Nuestros Planes</h2>
         <div class="tablas1">
             <div class="Tabla  tb1">
 
-                <h5 class="co">Free   Para todos</h5>
-                <img class="ima1" src="./assets/images/youth.png" alt="">
-                <h6>S/0.00</h6> 
+                <h5 class="co">Free Para todos</h5>
+                <!-- <img class="ima1" src="" alt=""> -->
+                <h6>S/0.00</h6>
                 <p>-Uso con publicidad</p>
                 <a class="b_1" href="">Obtenerlo</a>
-        
+
             </div>
             <div class="Tabla  tb2">
 
                 <h5 class="co2">Premiun Publico</h5>
-                <img class="ima1" src="./assets/images/group.png" alt="">
-                <h6>S/2.00</h6> 
+                <!-- <img class="ima1" src="" alt=""> -->
+                <h6>S/2.00</h6>
                 <p>-Remover publicidad</p>
                 <p>-Contacto con los desarrolladores</p>
                 <a class="b_2" href="">Obtenerlo</a>
-        
+
             </div>
         </div>
     </div>
-<!-- Contactanos -->
-<div class="PortadaContac">
-    <h2 class ="conta">Contactanos</h2>
-    <div class="cuadrosC"> 
-        <div class="correo">
-            
-            <img class="imacor"  src="imagenes/correoimg.webp" alt>
-            <h5 class="cor">Correos</h5> 
-            <a class="Gene">ServicioCliente@LocationAlert.com</a>
-         </div>
-       <div class="telef"> 
-        <img class="imatele"    src="imagenes/phone_object.png" alt>
-        <h5 class="tel">Llamanos</h5> 
-        <div class="num1">
-            <a class="numero1" href>5532722471 </a>
-        </div>
-        <div class="num2"> 
-            <a class="numero2" href>5568729605</a>
-        </div> 
-        </div> 
-     <div class="mensaje">
-        <h5 class="titulo">Para cualquier duda</h5> 
-        <div class="Men">
-            <input type="text" class="cuadrotexto" placeholder="Nombre"
-            required> 
 
-            <input type="text" class="cuadrotextos" placeholder="Apellido"
-            required> 
-
-            <input type="text" class="cuadrotexto1" placeholder="Correo"
-            required> 
-
-            <input type="text" class="cuadrotexto2" placeholder="Mensaje"
-            required>  
-
-            <button class="envi" type="submit">Enviar</button>
-
-        </div>
-
-
-     </div>
-
-    </div> 
-
-</div>
 
 </body>
+
 <footer>
     <div class="contenedor__footer">
         <div class="cajaF">
@@ -165,7 +170,9 @@
             </div>
             <div class="term">
                 <h2 class="Empre">Terminos</h2>
-                <p>En esta política se pueden incluir aspectos como la recopilación de datos, su uso, las opciones para el usuario de controlar su uso, las medidas de seguridad para proteger la privacidad de los usuarios</p>
+                <p>En esta política se pueden incluir aspectos como la recopilación de datos, su uso, las opciones para
+                    el usuario de controlar su uso, las medidas de seguridad para proteger la privacidad de los usuarios
+                </p>
             </div>
         </div>
         <div class="cajaF">
@@ -181,16 +188,16 @@
             <a href="#">Contactar con un experto</a>
         </div>
 
-        <div class ="cajaF">
+        <div class="cajaF">
             <h2 class="redes">Redes Sociales</h2>
-            <a href="https://es-la.facebook.com/"><img class="L"src="" alt>Facebook</a>
+            <a href="https://es-la.facebook.com/"><img class="L" src="" alt>Facebook</a>
             <a href="https://www.instagram.com/"><img class="L" src="" alt>Instragram </a>
-            <a herf="https://www.youtube.com/"><img class ="L" src=""alt>Youtube</a>
-            <a herf="https://www.whatsapp.com/?lang=es"><img class ="L" src="" alt> Whatsapp</a>
+            <a herf="https://www.youtube.com/"><img class="L" src="" alt>Youtube</a>
+            <a herf="https://www.whatsapp.com/?lang=es"><img class="L" src="" alt> Whatsapp</a>
         </div>
 
 
-        <div class ="caja_line">
+        <div class="caja_line">
             <hr>
             <p>
                 "Todos los derechos reservados © 2023"

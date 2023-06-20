@@ -38,7 +38,7 @@ function mostrar_menu(){
 
 window.addEventListener("resize", function(){
 
-    if(window.innerWidth > 760){
+    if(window.innerWidth > 360){
         menu.classList.remove('moverconte');
         body.classList.remove('moverconte');
         nav.classList.remove('move_nav');
@@ -55,7 +55,7 @@ function borrar_menu(){
 /*------------------------------------------------------------------------*/ 
 
 
-let pagina_actual = "#Pagina_Inicio";
+let pagina_actual = "#Pagina_Inicio2";
 document.querySelectorAll("boot").forEach((evento)=> {
     evento.addEventListener("click", (e)=>{
         
@@ -79,37 +79,7 @@ btnAbrirPopup.addEventListener('click', function(){
 	popup.classList.add('active');
 });
 
-var btnAbrirPopup = document.getElementById('Regsitro2'),
-	overlay = document.getElementById('overlay'),
-	popup = document.getElementById('caja_trasera');
-    
-    
 
-btnAbrirPopup.addEventListener('click', function(){
-	overlay.classList.add('active');
-	popup.classList.add('active');
-});
-/*btnCerrarPopup.addEventListener('click', function(e){
-	e.preventDefault();
-	overlay.classList.remove('active');
-	popup.classList.remove('active');
-}); */
-
-
-
-/*$(document).ready(function(){
-
-    var ir_a=$(".desplazar");
-
-    ir_a.click(function(e){
-        e.preventDefault();
-        $("body. html").animate({
-            screenTop: $(this.hash).offset().top
-        },1000
-        );
-    })
-
-})*/
 /*------------------------------------------------------------------------------------ */
 document.getElementById("Cambiar1").addEventListener("click", iniciarSesion);
 document.getElementById("Cambiar2").addEventListener("click", register);
