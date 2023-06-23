@@ -1,0 +1,106 @@
+footer{
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    color: #555;
+}
+
+.contenedor__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cajaF{
+    flex: 1 1 250px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+a{
+    color: #555;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.caja_line{
+    margin-top: 20px;
+    text-align: center;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+/* para las redes sociales */
+
+.redes{
+    margin-top: 5px;
+}
+
+.L{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.term-container{
+    margin-left: -50px;
+}
+
+.Empre {
+    color: #333;
+    margin-top: -170px;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: -5px;
+}
+
+.term{
+    margin: -100px;
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor__footer{
+        flex-direction: column;
+    }
+
+    .cajaF{
+        width: 100%;
+    }
+
+    .term-container{
+        margin-left: 0;
+    }
+
+    .Empre{
+        margin-top: -140px;
+    }
+
+    .term{
+        margin-top: -80px;
+    }
+
+
+
+}
