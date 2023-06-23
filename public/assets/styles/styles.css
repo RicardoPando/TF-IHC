@@ -129,7 +129,6 @@ li a:hover{
 }
 .ima1{
     margin-top: 5px;
-    margin-top: 20px;
     padding-left: 7%;
     margin-left: -50px;
     width: 200px;
@@ -137,4 +136,14 @@ li a:hover{
     overflow: hidden;
     justify-items: center;
 }
+.ima2{
+    margin-bottom: 20px;
+    padding-left: 7%;
+    margin-left: -50px;
+    width: 200px;
+    display: inline;
+    overflow: hidden;
+    justify-items: center;
+}
+
 
