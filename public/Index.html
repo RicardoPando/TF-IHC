@@ -13,8 +13,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Location Alert</title>
     <link rel="icon" type="image/x-icon" href="./assets/images/LocationAlert_icon.ico">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/styles/styles.css">
     <link rel="stylesheet" href="./assets/styles/stylesApp.css">
     <link rel="stylesheet" href="./assets/styles/stylespie.css">
@@ -26,6 +29,8 @@
 </head>
 
 <body class="bod">
+
+
     <header id="header">
         <div class="contenedorheader">
             <div class="logo">
@@ -39,20 +44,19 @@
                         <li><a class="desplazar" href="#Pagina_Nosot" class="boot" id="Nosot">Nosotros</a></li>
                         <li><a class="desplazar" href="#Pagina_App" class="boot" id="App">App</a></li>
                         <li><a class="desplazar" href="#Pagina_Planes" class="boot" id="Planes">Planes</a></li>
-                        <li><a class="desplazar" href="#Pagina_Contactanos" class="boot"
-                                id="Contactanos">Contactanos</a></li>
+                        <li><a class="desplazar" href="#Pagina_Contactanos" class="boot "id="Contactanos">Contactanos</a></li>
                     </ul>
                 </nav>
                 <!-- <div class="btn_menu" id="btn_menu">
-                <i class="fas fa-bars"><img class="im" src="./assets/images/barramenu.png"></i>
-            </div> -->
+                <i class="fas fa-bars"><img class="im" src="./assets/images/barramenu.png"></i>-->
+            </div> 
+            <i class="fa-solid fa-bars" id="icon_menu"></i>
 
-            </div>
-            <div class="regi">
-                <a href="#" id="Registro"><img src="./assets/images/usuario.png"></a>
-            </div>
-        </div>
+            
     </header>
+
+
+
     <div class="container_all" id="container_all">
         <div class="cover">
             <div class="contenedorcover active" id="Pagina_inicio">
@@ -67,25 +71,40 @@
 
     <!-- Nosotros -->
 
-    <div class="container_Nosotros " id="Pagina_Nosot">
+    <div class="container_Nosotros" id="Pagina_Nosot">
         <h2 class="N">Nosotros</h2>
         <input type="radio" id="1" name="image-slide" hidden />
         <input type="radio" id="2" name="image-slide" hidden />
         <input type="radio" id="3" name="image-slide" hidden />
-        <div class="pagination">
+        <div class="slide">
 
-            <label class="pagination-item" for="1">
+            <label class="item-slide" for="1">
                 <img src="./assets/images/grupo.png" alt="">
             </label>
 
-            <label class="pagination-item" for="2">
+            <label class="item-slide" for="2">
                 <img src="./assets/images/Equipo1.png">
             </label>
 
-            <label class="pagination-item" for="3">
+            <label class="item-slide" for="3">
                 <img src="./assets/images/Equipo2.png">
             </label>
 
+        </div>
+        <div class="pagination">
+           
+            <label class="pagination-item" for="1">
+                <img  src="./assets/images/grupo.png" alt="">
+            </label>
+            
+            <label class="pagination-item" for="2">
+                <img src="./assets/images/Equipo1.png">
+            </label>
+            
+            <label class="pagination-item" for="3">
+                <img src="./assets/images/Equipo2.png">
+            </label>
+            
         </div>
 
 
@@ -101,17 +120,14 @@
 
     <div class="App">
         <div class="row">
-            <h2 class="A">Nuestra APP</h2>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <h2 class="S">Nuestra APP</h2>    
             <div class="col-lg-2  col-md-6 col-sm-12">
                 <img class="chica" src="./assets/images/chica.png" alt="">
             </div>
             <div class="col-lg-6  col-md-6 col-sm-12">
-                <div class="col-lg-12 ">
+                <div class="p1">
+                    <p><br></p>
+                    <p><br></p>
                     <p>Esta app te ayudará a mejorar la calidad de seguridad en los lugares más peligrosos
                         de
                         Lima, también brindará alertas a
@@ -126,46 +142,46 @@
                 </div>
 
             </div>
-
-
             <div class="col-lg-4  col-md-6 col-sm-12">
                 <img class="fot" src="./assets/images/cell.jpg" alt="">
 
             </div>
         </div>
-
+       
     </div>
 
 
      <!-- Servicios -->
 
-     <div class="container_Servicios" id="Pagina_Servici">
+     <div class="container__Servicios fondo" id="Pagina_Servici">
         <h2 class="S">Servicios</h2>
-        <br>
-        <div class="image-container1">
-          <img src="./assets/images/rastreo.jpg" alt="Rastreo en tiempo real">
-          <p>Rastrearemos tu ubicación en tiempo real y te alertaremos si ingresas a una zona peligrosa</p> 
-          <br>
-          <br>
-        </div> 
-        <div class="image-container2">
-          <img src="./assets/images/alerta.png" alt="la policia estara alerta">
-          <p>Si detectamos actividad sospechosa nos comunicaremos con la policia para que intervengan y prevenir incidentes</p>
-          <br>
-          <br>  
+        
+        <div class="card c1">
+            <div class="icon">
+                <img class="ima4" src="./assets/images/rastreo.png" alt=" ">
+            </div>
+            <div class="ifo__descrip">
+            <p>Rastrearemos tu ubicación en tiempo real y te alertaremos si ingresas a una zona peligrosa</p> 
+            <input type="button" value="Leer Más">
+            </div>	
         </div>
-        <div class="clearfix"></div>
-      </div>
-    
-
+        <div class="card c2">
+            <div class="icon">
+                <img class="ima5" src="./assets/images/alerta.png" alt=" ">
+            </div>
+            <div class="ifo__descrip">
+                <p>Si detectamos actividad sospechosa nos comunicaremos con la policia para que intervengan y prevenir incidentes</p>
+                <input type="button" value="Leer Más">
+            </div>
+        </div>
 
     <!-- Planes -->
     <div class="PortadaSubcri" id="Pagina_Planes">
+        
         <h2>Nuestros Planes</h2>
         <br>
         <div class="tablas1">
             <div class="Tabla  tb1">
-
 
                 <h5 class="co">Free   Para todos</h5>
                 <!-- <img class="ima1" src="" alt=""> -->
@@ -241,7 +257,6 @@
     <br>
 
 </div>
-
 
 </body>
 <br>
