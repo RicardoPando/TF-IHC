@@ -3,11 +3,11 @@
   height: auto;
 }
 .App{
-    background-color:  #f4f1bb;
+    background-color:  #F4906C;
 }
 .chica{
  background-color: transparent;
- background-color:  #f4f1bb;
+ background-color:  #F4906C;
 
 }
 .A{
@@ -18,6 +18,8 @@
  
 }
 .fot{
+  position: absolute;
+  right: 80px;
   width: 150px;
   height: auto;
   transform: rotate(35deg);
