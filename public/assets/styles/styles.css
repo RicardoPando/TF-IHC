@@ -368,12 +368,11 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
 
 .container__Servicios{
     max-width: 1600px;
-    padding: 20px;
-    height: 1000px;
+    height: 580px;
     padding-bottom: 50px;
     margin: auto;
     padding-top: 200px;
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -381,6 +380,7 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
 
 }
 .fondo{
+    padding: 100px;
     max-width: 2000px;
     background-color: #d7eef8;
 }
