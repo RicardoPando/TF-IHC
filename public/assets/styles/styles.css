@@ -364,3 +364,146 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
     }
 
 }
+/* SERVICIOS */
+
+.container__Servicios{
+    max-width: 1600px;
+    padding: 20px;
+    height: 1000px;
+    padding-bottom: 50px;
+    margin: auto;
+    padding-top: 200px;
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.fondo{
+    max-width: 2000px;
+    background-color: #d7eef8;
+}
+.S{
+    position: absolute;
+    text-align: center;
+    font-size: 85px;
+    margin-top: -7.5%;
+    color: rgb(215, 177, 126);
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px #78acc2;
+    
+}
+.card{
+    width: 400px;
+    position: relative;
+    height: 90px;
+    margin: 20px;
+    margin-top: 70px;
+    transition: all 300ms;
+    font-family:'IBM Plex Serif';
+    background-color: transparent ;
+}
+.card:hover{
+    box-shadow: 1px 1px 20px -10px rgb(80, 79, 79);
+    border-radius: 20px;
+}
+.card:hover .ifo__descrip{
+    margin-top: 0;
+    border-radius: 0px 0px 20px 20px;
+}
+.card:hover .icon{
+    margin-top: -110px;
+    border-radius: 20px 20px 0px 0px;
+}
+.icon {
+    width: 100%;
+    height: 280px;
+    background-color: rgb(251, 247, 234);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    transition: all 400ms cubic-bezier(0.5,0,0,1);
+    border-radius: 20px;
+  
+}
+.ima4, .ima5, .ima6{
+   width: 70%;
+   transition: all 400ms cubic-bezier(0.5,0,0,1);
+}
+.ifo__descrip{
+    width: 100%;
+    height: 230px;
+    color: rgb(74, 72, 75);
+    background: rgb(251, 247, 234);
+    padding: 20px;
+    margin-top: -220px;
+    border-radius: 20px;
+    transition: all 400ms cubic-bezier(0.5,0,0,1);
+
+}
+.ifo__descrip p{
+   font-size: 16px;
+   margin-top: 20px;
+   display: -webkit-box;
+   display: -moz-box;
+   display: box;
+   -webkit-box-orient: vertical;
+   -moz-box-orient: vertical;
+   box-orient: vertical;
+   -webkit-line-clamp: 3;
+   line-clamp: 3;
+   overflow:hidden ;
+
+}
+.ifo__descrip input{
+    margin-top: 20px;
+    padding: 10px 40px;
+    background: rgb(192, 173, 211);
+    color: bisque;
+    font-weight: 500;
+    border:none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px -5px rgb(175, 172, 172) ;
+    transition: box-shadow 300ms;
+}
+
+.ifo__descrip input:hover{
+    box-shadow: 1px 1px 70px -5px rgb(105, 104, 104) ;
+    background-color: rgb(141, 58, 58);
+
+}
+.c1:hover .icon{
+    background-color: rgb(163, 191, 218);
+}
+
+.c2:hover .icon{
+    background-color: rgb(163, 218, 186);
+}
+.c3:hover .icon{
+    background-color: rgb(218, 164, 163);
+}
+
+
+/* PLANES */
+
+.PortadaSubcri{
+    max-width: 1000px;
+    height: 100%;
+    padding: 40px;
+    width: 100%;
+    padding-bottom: 50px;
+    margin: auto;
+    padding-top: 400px;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+}
+
