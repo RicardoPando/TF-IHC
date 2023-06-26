@@ -382,7 +382,7 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
 .fondo{
     padding: 100px;
     max-width: 2000px;
-    background-color: #d7eef8;
+    background-color: #fff;
 }
 .S{
     position: absolute;
@@ -492,18 +492,219 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
 
 /* PLANES */
 
-.PortadaSubcri{
-    max-width: 1000px;
-    height: 100%;
-    padding: 40px;
-    width: 100%;
-    padding-bottom: 50px;
+
+.PortadaSubcri {
+    max-width: 1600px;
+    height: 580px;
+    padding-bottom: 600px;
     margin: auto;
-    padding-top: 400px;
-    margin-top: 80px;
+    padding-top: 290px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
     justify-content: center;
+    
+  }
+
+  
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .tablas1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .Tabla {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .co {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .co2 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  h6 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .b_1,
+  .b_2 {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .b_1:hover,
+  .b_2:hover {
+    background-color: #555;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .tablas1 {
+      flex-direction: column;
+    }
+  
+    .Tabla {
+      margin: 0 0 30px;
+    }
+  }
+  
+
+
+
+
+  /* CONTACTANOS */
+  .PortadaContac{
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
+.conta{
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cuadrosC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.correo, .telef{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.imacor, .imatele{
+    width: 80px;
+    height: 80px;
+}
+
+.cor, .tel{
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Gene, .numero1, .numero2{
+    color:#333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Gene:hover, .numero1:hover, .numero2:hover{
+    text-decoration: underline;
+}
+
+.mensaje{
+    margin-top: 40px;
+}
+
+.titulo {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.Men input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.cuadrotexto {
+    background-color: #fff;
+  }
+  
+  .cuadrotextos {
+    background-color: #fff;
+  }
+  
+  .cuadrotexto1 {
+    background-color: #fff;
+  }
+  
+  .cuadrotexto2 {
+    background-color: #fff;
+    height: 100px;
+  }
+  
+  .envi {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .envi:hover {
+    background-color: #45a049;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .PortadaContac {
+      width: 100%;
+    }
+  
+    .imacor, .imatele {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .cuadrotexto, .cuadrotextos, .cuadrotexto1, .cuadrotexto2 {
+      width: 100%;
+    }
+  
+    .envi {
+      width: 100%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
