@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googlleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 *{
@@ -160,6 +160,7 @@ li a:hover{
 }
 .ima1{
     margin-top: 5px;
+    margin-top: 20px;
     padding-left: 7%;
     margin-left: -50px;
     width: 200px;
@@ -167,7 +168,6 @@ li a:hover{
     overflow: hidden;
     justify-items: center;
 }
-<<<<<<< HEAD
 
 /* NOSOTROS */
 .container_Nosotros{
@@ -382,7 +382,7 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
 .fondo{
     padding: 100px;
     max-width: 2000px;
-    background-color: #fff;
+    background-color: #d7eef8;
 }
 .S{
     position: absolute;
@@ -507,16 +507,3 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
     justify-content: center;
 }
 
-=======
-.ima2{
-    margin-bottom: 20px;
-    padding-left: 7%;
-    margin-left: -50px;
-    width: 200px;
-    display: inline;
-    overflow: hidden;
-    justify-items: center;
-}
-
-
->>>>>>> Jefrey
