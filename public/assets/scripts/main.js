@@ -1,3 +1,9 @@
+document.getElementById("icon_menu").addEventListener("click", mostrar_nave);
+
+function mostrar_nave(){
+    document.querySelector(".nave").classList.toggle("mostrar_nave");
+}
+
 window.onscroll = function(){
     /*almacena los datos cuando baja*/ 
     scrool=document.documentElement.scrollTop;
